@@ -74,39 +74,37 @@ _You will know everything is working properly when you see the styles enabled fo
 #### Home Page - Desktop HTML & LESS
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-
 * [ ] Add a viewport meta tag to the head of your index.html page
-
 * [ ] [Review the provided home desktop design file](design/home.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
-
 * [ ] Navigation Styles: Use the `navigation.less` file for styling.
-
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
-
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
-
 * [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-
 * [ ]  Use at least 2 parameters to create your button
-
 * [ ] Create a hover state that changes the opacity of images to 80%
 
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
-Navigate to `index.js` and complete the challenges. The output of this code will help you complete stretch goals for today's challenge.
+Navigate to `index.js` and complete the MVP challenges. Note that you need to scroll past data (or collapse data in VScode) to find the challenges.
 
 ### Task 3: Stretch Problems
 
-After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
+After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals, also listed in `index.js`, where applicable:
 
-* [ ] Copy HTML elements from JavaScript console to display all 50 artists on the page
-* [ ] Add CSS animations
-* [ ] Use advanced array methods (.map, .reduce, .filer) to parse data in different ways and display it on the page
+* [ ] Use JavaScript to programmatically create HTML elements in the console to display all 50 artists on the page
+* [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
+* [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
 * [ ] Add responsive breakpoints to your code by using media queries
+* [ ] Add CSS animations
 
 ## Resources
 
+📚[Best Practices for Responsive Design](https://www.browserstack.com/guide/responsive-design-breakpoints)
+
+🤝[W3 Schools - Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
+
+👀 [Styling with HTML and CSS](https://www.w3schools.com/html/html_css.asp)
 
 ## Submission format
 

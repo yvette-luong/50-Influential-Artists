@@ -81,7 +81,7 @@ const data = [
     },
     {
       "id": 8,
-      "name": "Vincent van Gogh",
+      "name": "Vincent van Dough",
       "years": "1853 – 1890",
       "genre": "Post-Impressionism",
       "nationality": "Dutch",
@@ -501,6 +501,7 @@ const data = [
     }
   ]
 
+// 🖌🖼 M V P 🖼🖌 //
 
 /* Task 1: Practice accessing data above by console.log-ing following items:
 
@@ -509,7 +510,88 @@ const data = [
 
 
 
-/* Task 2: Create HTML elements
+/* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
+
+
+
+/* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
+ *     (1) data array
+ *     (2) a number which is the desired index in the array.
+ * getArtistByIndex returns a string in the format `The artist at index {id} is {name}.`
+ * 
+ * For example, if getArtistByIndex is invoked with the inventory and the number 0,
+ * it will return `The artist at index 0 is Amedeo Modigliani`.
+*/
+function getCarInfoByIndex(inventory, index) {
+    /* code here */
+  }
+  
+  /**
+
+
+/* Task 4: Create a function called `removeArtist` that takes two arguments:
+ *     (1) data array
+ *     (2) a number which is the desired index in the array.
+ * removeArtist removes an artist from the dat array at the index.
+ * 
+ * For example, if removeArtist is invoked with the data and the number 0,
+ * it will remove Amedeo Modigliani from our dataset.
+*/
+function getCarInfoByIndex(inventory, index) {
+    /* code here */
+  }
+  
+  /**
+
+
+/* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
+
+function get20s(/* Code here */){
+
+    /* Code here */
+
+  }
+
+/* Task 6: Create a function called lotsOfArt() that takes data as an argument and returns an array with names of artists who painted more than 100 paintings */
+
+function lotsOfArt(/* Code here */){
+
+    /* Code here */
+
+  }
+
+
+/* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the data array. Then, Add a 51st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
+
+id: 50
+name: Your Name Here, 
+years: Your Birth Year - current day,
+genre: Web Design, 
+nationality: Your Nationality Here
+bio: Add 1-2 sentences (or use lorem ipsum) "*/
+
+function addArtist(/* Code here */){
+
+    /* Code here */
+
+  }
+
+
+/* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
+
+function checkArtist(/* Code here */){
+
+    /* Code here */
+
+  }
+
+
+
+
+
+// 🎨🎨 STRETCH 🎨🎨//
+
+/* STRETCH 1: Programtically console.log HTML element structure 
 
 In HTML, every artist and associated content uses the following structure: 
 
@@ -523,22 +605,26 @@ In HTML, every artist and associated content uses the following structure:
 <div class = "bio">Vincent Willem van Gogh (Dutch: [ˈvɪnsɛnt ˈʋɪləm vɑŋ ˈɣɔx] (listen); 30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of them in the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. However, he was not commercially successful, and his suicide at 37 followed years of mental illness and poverty.</div>
 </div>
 
- Your task is to create a function called `getHTML()` that takes the parameter `data` and uses a for..in loop to format and console.log data like the example above. 
+Create a function called `getHTML()` that takes the parameter `data` and uses a for..in loop to format and console.log data like the example above. 
 
-The function should console.log 50 chunks of HTML code that match the structure above. */
+The function should console.log 50 chunks of HTML code that match the structure above. 
 
-  function getHTML(/* Code here */){
+‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
-    /* Code here */
-
-  }
-
-/* Task 3: Create a function called get20s() that returns an array with names of artists who were born the 20th century (1800-1900) */
-
-function get20s(/* Code here */){
+function getHTML(/* Code here */){
 
     /* Code here */
 
   }
 
-/* Task 4: Create a function called lotsOfArt() that returns an array with names of artists who painted more than 100 paintings */
+
+/* STRETCH 2: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
+
+function randomize(/* Code here */){
+
+    /* Code here */
+
+  }
+
+
+ /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
