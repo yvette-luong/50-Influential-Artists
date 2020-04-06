@@ -40,17 +40,17 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] Create a forked copy of this project
+- [ ] Add your project manager as collaborator on Github
+- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help
 * [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
 * [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file
 * [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a:  Minimum Viable Product - PreProcessing
@@ -73,13 +73,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 #### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built
 * [ ] Add a viewport meta tag to the head of your index.html page
 * [ ] [Review the provided home desktop design file](design/home.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [ ] Navigation Styles: Use the `navigation.less` file for styling
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles
 * [ ]  Use at least 2 parameters to create your button
 * [ ] Create a hover state that changes the opacity of images to 80%
 
