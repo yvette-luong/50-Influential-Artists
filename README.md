@@ -2,7 +2,7 @@
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored Advanced CSS and JavaScript fundamentals. During this Sprint, you studied preprocessing, variable declaration, conditionals, loops, functions, arrays, and objects. In your challenge this week, you will demonstrate proficiency by creating a website for recipes with data from a `JSON` object.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored Advanced CSS and JavaScript fundamentals. During this Sprint, you studied studied preprocessing, variable declaration, conditionals, loops, functions, arrays, and objects. In your challenge this week, you will demonstrate proficiency by creating a website for recipes with data from a `JSON` object.
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
@@ -12,7 +12,7 @@ You are not allowed to collaborate during the Sprint Challenge. However, you are
 
 ## Introduction
 
-In this challenge, you will use a data set of influential artists to build a "50 influential artists" webpage.
+In this challenge, you will use a data set of influential artists to build a "influential artists" webpage. This data comes from a set of "50 influential artists" on [kaggle](https://www.kaggle.com/ikarus777/best-artworks-of-all-time). We have reduced the data to just 20 artists to make it slightly easier to work with. You can work with the full dataset as a stretch goal.
 
 ### Commits
 
@@ -40,17 +40,17 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your project manager as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`
+- [ ] Create a forked copy of this project.
+- [ ] Add your project manager as collaborator on Github.
+- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help
+* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 * [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
 * [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file
+* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
 * [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a:  Minimum Viable Product - PreProcessing
@@ -73,16 +73,15 @@ _You will know everything is working properly when you see the styles enabled fo
 
 #### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built
+* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 * [ ] Add a viewport meta tag to the head of your index.html page
 * [ ] [Review the provided home desktop design file](design/home.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
-* [ ] Navigation Styles: Use the `navigation.less` file for styling
+* [ ] Navigation Styles: Use the `navigation.less` file for styling.
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles
-* [ ]  Use at least 2 parameters to create your button
+* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+* [ ] Use at least 2 parameters to create your button
 * [ ] Create a hover state that changes the opacity of images to 80%
-
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
@@ -92,7 +91,8 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals, also listed in `index.js`, where applicable:
 
-* [ ] Use JavaScript to programmatically create HTML elements in the console to display all 50 artists on the page
+* [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
+* [ ] Download the full dataset from [kaggle](https://www.kaggle.com/ikarus777/best-artworks-of-all-time) and apply your functions to it
 * [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
 * [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
 * [ ] Add responsive breakpoints to your code by using media queries
