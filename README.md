@@ -63,10 +63,10 @@ Follow these steps to set up your project:
 1.variables.less
 2.mixins.less
 3.reset.less
-4.global.less
+4.general.less
 5.navigation.less
-6.footer.less
-7.home-page.less
+6.main.less
+7.cta.less
 ```
 
 _You will know everything is working properly when you see the styles enabled for the provided content._  
