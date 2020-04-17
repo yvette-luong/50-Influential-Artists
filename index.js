@@ -222,7 +222,7 @@ const artists = [
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getCarInfoByIndex(inventory, index) {
+function getArtistByIndex(id, name) {
     /* code here */
   }
   
@@ -237,7 +237,7 @@ function getCarInfoByIndex(inventory, index) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function getCarInfoByIndex(inventory, index) {
+function removeArtist(/*code here*/) {
     /* code here */
   }
   
@@ -261,9 +261,9 @@ function lotsOfArt(/* Code here */){
   }
 
 
-/* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 51st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
+/* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
-id: 50
+id: 21
 name: Your Name Here, 
 years: Your Birth Year - current day,
 genre: Web Design, 
