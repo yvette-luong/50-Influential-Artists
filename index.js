@@ -244,15 +244,7 @@ function removeArtist(/*code here*/) {
   /**
 
 
-/* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
-
-function get20s(/* Code here */){
-
-    /* Code here */
-
-  }
-
-/* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
+/* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
 function lotsOfArt(/* Code here */){
 
@@ -261,7 +253,7 @@ function lotsOfArt(/* Code here */){
   }
 
 
-/* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
+/* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
 id: 21
 name: Your Name Here, 
@@ -277,21 +269,20 @@ function addArtist(/* Code here */){
   }
 
 
-/* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
-
-function checkArtist(/* Code here */){
-
-    /* Code here */
-
-  }
-
-
 
 
 
 // 🎨🎨 STRETCH 🎨🎨//
 
-/* STRETCH 1: Programtically console.log HTML element structure 
+/* STRETCH 1: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
+
+function get20s(/* Code here */){
+
+    /* Code here */
+
+  }
+
+/* STRETCH 2: Programtically console.log HTML element structure 
 
 In HTML, every artist and associated content uses the following structure: 
 
@@ -318,7 +309,7 @@ function getHTML(/* Code here */){
   }
 
 
-/* STRETCH 2: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
+/* STRETCH 3: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 
 function randomize(/* Code here */){
 
