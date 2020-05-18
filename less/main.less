@@ -1,30 +1,63 @@
 .title-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets\home.png);
-    width: 100%;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    h1 button {
-        display: inline-block;
-        font-family: @font-family;
-        font-weight: bold;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        color: white;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background-image: url(../assets/home.png);
+  width: 100%;
+  height: 86vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  div.hero-text {
+    font-family: @font-family;
+    text-align: center;
+    position: absolute;
+    font-size: 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    button {
+      .button-creator(150px, 45px, @btn-bg-color, black, 1.3rem);
     }
+  }
 }
+
 .artists-container {
     display: flex;
-    flex-direction: column;
-    width: 100%
- }
- .artist {
-    flex-direction: row ;
-    justify-content:center;
-    box-sizing: border-box;  
-    width: 40%; 
- }
+    flex-direction: row;
+    @media @phone {
+        flex-direction: column;
+        align-items: center;
+    }
+    .artist{
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 70%;
+            height: 50vh;
+            padding: 1rem;
+            border-radius: 8%;
+            @media @phone {
+                width: 100%;
+                height: 100vh;
+            }
+        }
+        a {
+            padding-top: 1rem;
+            font-family: @font-family;
+            text-decoration: none;
+            color: black;
+            font-size: 1.3rem;
+        }
+        div.bio {
+            text-align: center;
+            width: 80%;
+            padding: 2rem;
+            font-family: @font-family;
+        }
+    }
+}
+
